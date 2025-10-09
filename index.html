@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.R.S Ashensorë - Premium Elevators</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        .hero { background-image: url('hero-background.jpg'); height: 100vh; display: flex; justify-content: center; align-items: center; color: white; text-align: center; }
+        .section { padding: 50px; }
+        .models, .safety, .contact { background: #f4f4f4; }
+        .elevator-door { width: 200px; height: 200px; background-color: gray; animation: open 2s infinite alternate; }
+        @keyframes open { 0% { width: 200px; } 100% { width: 0; } }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <h1>Welcome to S.R.S Ashensorë</h1>
+        <p>Your premium provider of elevators in Albania.</p>
+    </section>
+    <section class="models section">
+        <h2>Our Models</h2>
+        <div>
+            <h3>Model A</h3>
+            <p>Description of Model A.</p>
+        </div>
+        <div>
+            <h3>Model B</h3>
+            <p>Description of Model B.</p>
+        </div>
+    </section>
+    <section class="safety section">
+        <h2>Safety Features</h2>
+        <p>Information about safety features and certifications.</p>
+    </section>
+    <section class="contact section">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+</body>
+</html>
